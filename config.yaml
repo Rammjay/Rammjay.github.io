@@ -1,0 +1,80 @@
+baseURL: "https://ramjay.in"
+languageCode: en-us
+title: Rammohan J 
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Rammohan J"
+    subtitle: Hello, I'm Rammohan J, a passionate computer science enthusiast pursuing my B.Tech in Computer Science and Engineering at Amrita College, Kollam. With a relentless curiosity for technology, I'm on a journey to unlock the secrets of the digital world.As I progress to my second year, I look forward to expanding my horizons, embarking on exciting internships, and contributing to projects that have real-world impact. My ultimate goal is to make a difference in the tech industry.
+    imageUrl: "home/WhatsApp Image 2023-10-20 at 12.52.17.jpeg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:rammohanjram@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/rammohan-j"
+    - name: "github"
+      url: "https://github.com/Rammjay"
+
+
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
