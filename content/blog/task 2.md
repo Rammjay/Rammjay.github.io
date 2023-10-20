@@ -36,13 +36,13 @@ host the site!
 ## -this is actually THE task that made me learn more about the git push , add all that commands and so it was actually fun.
 
 
-# basically the portfolio making part was easy as we only had to take an already existing template and make some changes, but the deployement part made it a bit difficult for me.
+-basically the portfolio making part was easy as we only had to take an already existing template and make some changes, but the deployement part made it a bit difficult for me.
 
-i followed the steps given in https://pages.github.com/ but was not able to deploy the site (404). And it did take a lot of time for me to find a solution, but finally i was able to.
+-i followed the steps given in https://pages.github.com/ but was not able to deploy the site (404). And it did take a lot of time for me to find a solution, but finally i was able to.
 
-so the language used in the template was yaml which i have not a single idea about, so for that we had to create a workflow to create and deploy . which i found out from - https://gohugo.io/hosting-and-deployment/hosting-on-github/ .
+-so the language used in the template was yaml which i have not a single idea about, so for that we had to create a workflow to create and deploy . which i found out from - https://gohugo.io/hosting-and-deployment/hosting-on-github/ .
 
-so yeah that was it and i kinda changed the source of build and deployment to Github Actions and then go to actions and change the workflow permissions.I dont know if that helped or not but finally the site was deployed and was available to be viewed!
+-so yeah that was it and i kinda changed the source of build and deployment to Github Actions and then go to actions and change the workflow permissions.I dont know if that helped or not but finally the site was deployed and was available to be viewed!
 
 
 
