@@ -33,8 +33,7 @@ learn how to host the site using github pages. This was the trickiest part but w
 host the site!
 
 
-## -
-this is actually THE task that made me learn more about the git push , add all that commands and so it was actually fun.
+## -this is actually THE task that made me learn more about the git push , add all that commands and so it was actually fun.
 
 
 # basically the portfolio making part was easy as we only had to take an already existing template and make some changes, but the deployement part made it a bit difficult for me.
